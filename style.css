@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#ERSheader{
+Background: #eee;
+height:65px;
+width: 100%;
+}
+
+.ERSlogo {
+    width: 20%;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+}
+
+.ERStag {
+	float: left;
+	width: 20%;
+	padding: 14px;
+	font-family: 'Oswald', sans-serif;
+	border-left: 1px dotted #c5c5c5;
+	text-align: center;
+}
+
+.ERScp {
+	float: left;
+    max-width: 30%;
+    padding: 14px;
+    font-family: 'Oswald', sans-serif;
+	border-left: 1px dotted #c5c5c5;
+}
+
+#ERSmenu {
+	width: 100%;
+	border-bottom: 3px solid #eee;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.dropbtn {
+    display: inline-block;
+    text-align: center;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #eee;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ERSslider {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+
+.w3-button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#ERSproduk {
+    width: 100%;
+    height: 500px;
+}
+
+.produkX {
+    border: 2px solid #222;
+    float: left;
+    max-width: 300px;
+    height: auto;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.produkXX {
+	border: 2px solid #222;
+    float: left;
+    max-width: 300px;
+    height: auto;
+    padding: 5px;
+    cursor: pointer;
+	margin-top: 15px;
+    margin-left: 15px;
+}
+
+.harga {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.hargaproduk {
+	font-family: 'Oswald', sans-serif;
+}
+
+#ERSfooter {
+    width: 100%;
+    height: 250px;
+    background: #222;
+}
+
+#ERScopyright {
+    width: 100%;
+    height: 25px;
+    background: #222;
+	color: #fff;
+	font-size: 11pt;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+.ERSalamat {
+    max-width: 70%;
+    color: #fff;
+    float: left;
+    padding: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ERSsocial {
+    float: right;
+    padding: 100px;
+}
+
+h1 {
+	padding: 20px;
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+		font-family: 'Oswald', sans-serif;
+}
+
+.ERSkategori {
+    border: 2px solid #222;
+    max-width: 300px;
+    width: 283px;
+    height: 375px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 21pt;
+    text-align: center;
+    float: left;
+}
+
+#ERSbody {
+    height: 380px;
+    padding: 10px;
+}
+
+#ERSbodyproduk {
+    padding: 10px;
+    width: 80%;
+    height: 330px;
+    margin: auto;
+}
+
+.fotoproduk {
+    padding: 10px;
+    border: 2px solid;
+    max-width: 230px;
+	float: left;
+}
+
+.ketproduk {
+    padding: 10px;
+    margin: auto;
+    border: 2px solid;
+    margin-left: 13px;
+    float: left;
+    height: 304px;
+    width: 73%;
+}
+
+.about {
+    padding: 10px;
+    margin: auto;
+    border: 2px solid;
+    height: 355px;
+}
+
+.deskproduk, .pemesanan, .desk {
+	font-family: 'Oswald', sans-serif;
+}
+
+#ERSbodykatalog {
+    height: 780px;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+	color: black;
+}
+
+a:visited {
+    text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #c35ff2;
+}
+
+a:active {
+	color: #c35ff2;
+}
